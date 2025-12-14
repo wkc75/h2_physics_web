@@ -24,3 +24,30 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.physics-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.physics-table th,
+.physics-table td {
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+}
+
+.physics-table th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
+
+.physics-table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}

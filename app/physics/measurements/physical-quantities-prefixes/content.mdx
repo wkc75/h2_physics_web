@@ -1,0 +1,220 @@
+import { BaseUnitTable } from "@/components/BaseUnitTable";
+import PracticeMCQ_BaseVsDerived from "@/components/PracticeMCQ_BaseVsDerived";
+import PracticeMCQ_PrefixesConversion from "@/components/PracticeMCQ_PrefixesConversion";
+import PracticeMCQ_Homogenity from "@/components/PracticeMCQ_Homogenity";
+
+# **Physical Quantities**
+Physical Quantities are quantites that can be measured, they consist of a **numerical value** and **unit**.
+
+<br />
+***For example***
+
+My **mass** 
+<span style={{ fontSize: "0.85em", color: "#555"}}>(quantity)</span> 
+is **60** 
+<span style={{ fontSize: "0.85em", color: "#555"}}>(numerical value)</span> 
+**kg** 
+<span style={{ fontSize: "0.85em", color: "#555"}}>(unit)</span> 
+<br />
+---
+<br />
+
+## **Base Quantities and Derived Quantities**
+
+In the world of physics, quantites are categorised into **base quantites** and **derived quantites**.
+
+<br />
+**Base Quantities** are fundamental physical quantites that are not defined in terms of other quantites.
+
+<BaseUnitTable>
+    <thead>
+        <tr>
+        <th>Base Quantity</th>
+        <th>Symbol</th>
+        <th>SI Unit</th>
+        <th>Unit Symbol</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>Length</td>
+        <td>l</td>
+        <td>metre</td>
+        <td>m</td>
+        </tr>
+        <tr>
+        <td>Mass</td>
+        <td>m</td>
+        <td>kilogram</td>
+        <td>kg</td>
+        </tr>
+        <tr>
+        <td>Time</td>
+        <td>t</td>
+        <td>second</td>
+        <td>s</td>
+        </tr>
+        <tr>
+        <td>Electric Current</td>
+        <td>I</td>
+        <td>ampere</td>
+        <td>A</td>
+        </tr>
+        <tr>
+        <td>Thermaldynamic Temperature</td>
+        <td>T</td>
+        <td>kelvin</td>
+        <td>K</td>
+        </tr>
+        <tr>
+        <td>Amount of Substance</td>
+        <td>n</td>
+        <td>mole</td>
+        <td>mol</td>
+        </tr>
+    </tbody>
+</BaseUnitTable>
+
+<br />
+**Derived units** are quantites obtained by combining base quantites using physical relationships (formulae).
+
+
+<br />
+***For example***
+
+Speed *v* is a derived quantity.
+
+Speed is derived from base quantites length and time, $v = \frac{s}{t}$.
+
+The units of derived quantites are also derived from base units.
+
+The units of *s* and *t* are **m** and **s** respectively, based on the formulae $v = \frac{s}{t}$, the unit of *v* is given as, **m/s**.
+
+<br />
+<PracticeMCQ_BaseVsDerived />
+<br />
+
+--- 
+
+<br />
+## **Prefixes**
+<br />
+
+<BaseUnitTable>
+  <thead>
+    <tr>
+      <th>Factor</th>
+      <th>Prefix</th>
+      <th>Symbol</th>
+      <th>Name</th>
+      <th>Decimal Equivalent</th>
+      <th>Order of Magnitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10⁻¹²</td>
+      <td>pico</td>
+      <td>p</td>
+      <td>Trillionth</td>
+      <td>0.000 000 000 001</td>
+      <td>−12</td>
+    </tr>
+    <tr>
+      <td>10⁻⁹</td>
+      <td>nano</td>
+      <td>n</td>
+      <td>Billionth</td>
+      <td>0.000 000 001</td>
+      <td>−9</td>
+    </tr>
+    <tr>
+      <td>10⁻⁶</td>
+      <td>micro</td>
+      <td>μ</td>
+      <td>Millionth</td>
+      <td>0.000 001</td>
+      <td>−6</td>
+    </tr>
+    <tr>
+      <td>10⁻³</td>
+      <td>milli</td>
+      <td>m</td>
+      <td>Thousandth</td>
+      <td>0.001</td>
+      <td>−3</td>
+    </tr>
+    <tr>
+      <td>10⁻²</td>
+      <td>centi</td>
+      <td>c</td>
+      <td>Hundredth</td>
+      <td>0.01</td>
+      <td>−2</td>
+    </tr>
+    <tr>
+      <td>10⁻¹</td>
+      <td>deci</td>
+      <td>d</td>
+      <td>Tenth</td>
+      <td>0.1</td>
+      <td>−1</td>
+    </tr>
+    <tr>
+      <td>10⁰</td>
+      <td>—</td>
+      <td>—</td>
+      <td>One</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10³</td>
+      <td>kilo</td>
+      <td>k</td>
+      <td>Thousand</td>
+      <td>1 000</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>10⁶</td>
+      <td>mega</td>
+      <td>M</td>
+      <td>Million</td>
+      <td>1 000 000</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>10⁹</td>
+      <td>giga</td>
+      <td>G</td>
+      <td>Billion</td>
+      <td>1 000 000 000</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>10¹²</td>
+      <td>tera</td>
+      <td>T</td>
+      <td>Trillion</td>
+      <td>1 000 000 000 000</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</BaseUnitTable>
+
+<br />
+<PracticeMCQ_PrefixesConversion />
+
+<br />
+## **Homogenity of Physical Equation**
+
+For an physical equation to be plausible, it must be ***homogenous***, 
+meaning terms on both sides of the equation must have the same unit when expressed in SI units.
+
+<br />
+
+This is because only quantites with the same unit can be **added**, **subtracted** or **equated**.
+
+<br />
+<PracticeMCQ_Homogenity />
