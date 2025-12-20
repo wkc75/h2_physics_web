@@ -57,7 +57,7 @@ import "katex/dist/katex.min.css";
 
 // Sidebar appears on EVERY page
 // This is a Client Component (interactive)
-import Sidebar from "../components/Sidebar";
+import Sidebar from "@/components/sidebar/Sidebar";
 import ContentContainer from "@/components/ContentContainter";
 
 // ===============================

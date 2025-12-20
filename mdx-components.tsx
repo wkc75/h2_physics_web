@@ -12,6 +12,7 @@ import VectorAdditionSimulationHeadToTail from "./components/h2_phy_measurements
 import VectorResolutionSimulation from "./components/h2_phy_measurements/scalar_and_vector/VectorResolutionSimulation";
 import Vector1DSimulation from "./components/h2_phy_measurements/scalar_and_vector/Vector1DSimulation";
 import VectorAdditionSimulationParallelogram from "./components/h2_phy_measurements/scalar_and_vector/VectorAdditionSimulationParallelogram";
+import Callout from "@/components/Callout";
 // import other MDX components here later
 
 export function useMDXComponents(
@@ -44,7 +45,7 @@ export function useMDXComponents(
     VectorResolutionSimulation,
     Vector1DSimulation,
     VectorAdditionSimulationParallelogram,
-
+    Callout,
     // allow overrides
     ...components,
   };
